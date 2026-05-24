@@ -23,7 +23,7 @@ todo check -n "<Task name>"
 ## Build
 ```bash
 nox init
-novus main.nox
+novus main.nov
 ```
 
 ## Run
