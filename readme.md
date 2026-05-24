@@ -1,5 +1,5 @@
 ## Todo App
-This is a basic todo app built in my programming lanuage Novus (https://github.com/mjdaws0n/novus), using my package manager Nox (https://github.com/mjdaws0n/nox
+This is a basic todo app built in my programming lanuage Novus (https://github.com/mjdaws0n/novus), using my package manager Nox (https://github.com/mjdaws0n/nox).
 
 I partically made it to learn Vim better, so it's written using Vim.
 
