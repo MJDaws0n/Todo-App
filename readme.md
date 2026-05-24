@@ -38,7 +38,7 @@ sudo cp build/linux_x86_64/todo /usr/local/bin/todo
 
 ## Errors
 I don't make mistakes so they error is most likley you're fault...
-If there is something that breaks, delete this file to reset all you're tasks and you should be set `/home/max/.local/share/novus-tasks.txt`.
+If there is something that breaks, delete this file to reset all you're tasks and you should be set `/home/YOUUSERNAME/.local/share/novus-tasks.txt`.
 
 ## Disclamer
 Novus is under very early development, this code works on my OS, however it may not work on Windows, MacOS, or other CPU types, because I cannot be bothered to test.
