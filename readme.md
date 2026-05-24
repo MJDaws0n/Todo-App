@@ -1,7 +1,9 @@
 ## Todo App
 This is a basic todo app built in my programming lanuage Novus (https://github.com/mjdaws0n/novus), using my package manager Nox (https://github.com/mjdaws0n/nox
 
-I also made it to try to learn Vim better, so it's written using Vim.
+I partically made it to learn Vim better, so it's written using Vim.
+
+I also made it becuase I completly forgot how to code with all this AI, and I use AI for everything, so I thought i'd try build an app with not internet connection and no AI.
 
 ## Usage
 Run this and it will tell you all you need to know.
