@@ -121,8 +121,12 @@ fn printUsage() -> void{
 	print('todo check -n "<Task name>"');
 }
 
+fn getTasksFileLocation() -> str {
+	return get_home_dir() + "/novus-tasks.txt";
+}
+
 fn getTasks() -> []str {
-	let tasksFile: str = get_home_dir()+"/.local/share/novus-tasks.txt";
+	let tasksFile: str = getTasksFileLocation();
 	if(!file_exists(tasksFile)){
 		return [];
 	}	
@@ -143,7 +147,7 @@ fn getTasks() -> []str {
 }
 
 fn addTask(newTask: str) -> i32{
-	let tasksFile: str = get_home_dir()+"/.local/share/novus-tasks.txt";
+	let tasksFile: str = getTasksFileLocation();
 	let currentTasks: str = '';
 
 	if(file_exists(tasksFile)){
@@ -212,7 +216,7 @@ fn removeNewlines(text: str) -> str {
 
 fn checkTask(taskid: i32) -> []str {
 	let tasks: []str = getTasks();
-	let tasksFile: str = get_home_dir()+"/.local/share/novus-tasks.txt";
+	let tasksFile: str = getTasksFileLocation();
 	let updatedTasks: str = '';
 	let taskName: str = '';
 	let complete: str = "-1";
@@ -247,7 +251,7 @@ fn checkTask(taskid: i32) -> []str {
 
 fn checkTaskByName(taskName: str) -> str {
 	let tasks: []str = getTasks();
-	let tasksFile: str = get_home_dir()+"/.local/share/novus-tasks.txt";
+	let tasksFile: str = getTasksFileLocation();
 	let updatedTasks: str = '';
 	let complete: str = "-1";
 
